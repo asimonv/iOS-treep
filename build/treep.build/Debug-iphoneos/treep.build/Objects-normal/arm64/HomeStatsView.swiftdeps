@@ -1,0 +1,645 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomeStatsView"
+provides-nominal:
+- "C5treep13HomeStatsView"
+provides-member:
+- ["C5treep13HomeStatsView", ""]
+provides-dynamic-lookup:
+- "totalTeacherVotesWrapperView"
+- "teacherTimestampLabel"
+- "totalTeacherVotesLabel"
+- "totalCoursesVotesLabel"
+- "coursesTimestampLabel"
+- "instanceFromNib"
+- "totalCoursesVotesWrapperView"
+depends-top-level:
+- "CastingPrecedence"
+- "UIView"
+- "StatView"
+- "HomeStatsView"
+- !private "UINib"
+- !private "StringLiteralType"
+- "UILabel"
+depends-member:
+- !private ["Ps9AnyObject", "UINib"]
+- ["Ps9AnyObject", "coursesTimestampLabel"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "instanceFromNib"]
+- !private ["Ps9AnyObject", "instantiate"]
+- ["Ps9AnyObject", "teacherTimestampLabel"]
+- ["Ps9AnyObject", "totalCoursesVotesLabel"]
+- ["Ps9AnyObject", "totalCoursesVotesWrapperView"]
+- ["Ps9AnyObject", "totalTeacherVotesLabel"]
+- ["Ps9AnyObject", "totalTeacherVotesWrapperView"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "Index"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Indices"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "SubSequence"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps22BidirectionalIndexable", "Index"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Indices"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "SubSequence"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "subscript"]
+- !private ["Vs18BidirectionalSlice", "Index"]
+- !private ["Vs18BidirectionalSlice", "IndexDistance"]
+- !private ["Vs18BidirectionalSlice", "Indices"]
+- !private ["Vs18BidirectionalSlice", "Iterator"]
+- !private ["Vs18BidirectionalSlice", "SubSequence"]
+- !private ["Vs18BidirectionalSlice", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["PSo15CALayerDelegate", "UINib"]
+- ["PSo15CALayerDelegate", "coursesTimestampLabel"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "instanceFromNib"]
+- ["PSo15CALayerDelegate", "teacherTimestampLabel"]
+- ["PSo15CALayerDelegate", "totalCoursesVotesLabel"]
+- ["PSo15CALayerDelegate", "totalCoursesVotesWrapperView"]
+- ["PSo15CALayerDelegate", "totalTeacherVotesLabel"]
+- ["PSo15CALayerDelegate", "totalTeacherVotesWrapperView"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC6CGRect", "deinit"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UINib"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- ["Ps7CVarArg", "coursesTimestampLabel"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "instanceFromNib"]
+- !private ["Ps7CVarArg", "instantiate"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "teacherTimestampLabel"]
+- ["Ps7CVarArg", "totalCoursesVotesLabel"]
+- ["Ps7CVarArg", "totalCoursesVotesWrapperView"]
+- ["Ps7CVarArg", "totalTeacherVotesLabel"]
+- ["Ps7CVarArg", "totalTeacherVotesWrapperView"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Indices"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UINib"]
+- ["Ps28CustomDebugStringConvertible", "coursesTimestampLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "instanceFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiate"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "teacherTimestampLabel"]
+- ["Ps28CustomDebugStringConvertible", "totalCoursesVotesLabel"]
+- ["Ps28CustomDebugStringConvertible", "totalCoursesVotesWrapperView"]
+- ["Ps28CustomDebugStringConvertible", "totalTeacherVotesLabel"]
+- ["Ps28CustomDebugStringConvertible", "totalTeacherVotesWrapperView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UINib"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- ["Ps23CustomStringConvertible", "coursesTimestampLabel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "instanceFromNib"]
+- !private ["Ps23CustomStringConvertible", "instantiate"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "teacherTimestampLabel"]
+- ["Ps23CustomStringConvertible", "totalCoursesVotesLabel"]
+- ["Ps23CustomStringConvertible", "totalCoursesVotesWrapperView"]
+- ["Ps23CustomStringConvertible", "totalTeacherVotesLabel"]
+- ["Ps23CustomStringConvertible", "totalTeacherVotesWrapperView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs27DefaultBidirectionalIndices", "Index"]
+- !private ["Vs27DefaultBidirectionalIndices", "Iterator"]
+- !private ["Vs27DefaultBidirectionalIndices", "SubSequence"]
+- !private ["Vs27DefaultBidirectionalIndices", "_Element"]
+- !private ["Vs26DefaultRandomAccessIndices", "Index"]
+- !private ["Vs26DefaultRandomAccessIndices", "IndexDistance"]
+- !private ["Vs26DefaultRandomAccessIndices", "Indices"]
+- !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
+- !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
+- !private ["Vs26DefaultRandomAccessIndices", "_Element"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UINib"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- ["Ps9Equatable", "coursesTimestampLabel"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "instanceFromNib"]
+- !private ["Ps9Equatable", "instantiate"]
+- ["Ps9Equatable", "teacherTimestampLabel"]
+- ["Ps9Equatable", "totalCoursesVotesLabel"]
+- ["Ps9Equatable", "totalCoursesVotesWrapperView"]
+- ["Ps9Equatable", "totalTeacherVotesLabel"]
+- ["Ps9Equatable", "totalTeacherVotesWrapperView"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UINib"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- ["Ps8Hashable", "coursesTimestampLabel"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "instanceFromNib"]
+- !private ["Ps8Hashable", "instantiate"]
+- ["Ps8Hashable", "teacherTimestampLabel"]
+- ["Ps8Hashable", "totalCoursesVotesLabel"]
+- ["Ps8Hashable", "totalCoursesVotesWrapperView"]
+- ["Ps8Hashable", "totalTeacherVotesLabel"]
+- ["Ps8Hashable", "totalTeacherVotesWrapperView"]
+- ["Ps8Hashable", ""]
+- ["C5treep13HomeStatsView", "HomeStatsView"]
+- ["C5treep13HomeStatsView", "StatView"]
+- ["C5treep13HomeStatsView", "UILabel"]
+- !private ["C5treep13HomeStatsView", "UINib"]
+- ["C5treep13HomeStatsView", "coursesTimestampLabel"]
+- ["C5treep13HomeStatsView", "deinit"]
+- ["C5treep13HomeStatsView", "init"]
+- ["C5treep13HomeStatsView", "instanceFromNib"]
+- ["C5treep13HomeStatsView", "teacherTimestampLabel"]
+- ["C5treep13HomeStatsView", "totalCoursesVotesLabel"]
+- ["C5treep13HomeStatsView", "totalCoursesVotesWrapperView"]
+- ["C5treep13HomeStatsView", "totalTeacherVotesLabel"]
+- ["C5treep13HomeStatsView", "totalTeacherVotesWrapperView"]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Indices"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Indices"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "Stride"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "_DisabledRangeIndex"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "UINib"]
+- ["PSo8NSCoding", "coursesTimestampLabel"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "instanceFromNib"]
+- ["PSo8NSCoding", "teacherTimestampLabel"]
+- ["PSo8NSCoding", "totalCoursesVotesLabel"]
+- ["PSo8NSCoding", "totalCoursesVotesWrapperView"]
+- ["PSo8NSCoding", "totalTeacherVotesLabel"]
+- ["PSo8NSCoding", "totalTeacherVotesWrapperView"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "HomeStatsView"]
+- ["CSo8NSObject", "StatView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UINib"]
+- ["CSo8NSObject", "coursesTimestampLabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "instanceFromNib"]
+- !private ["CSo8NSObject", "instantiate"]
+- ["CSo8NSObject", "teacherTimestampLabel"]
+- ["CSo8NSObject", "totalCoursesVotesLabel"]
+- ["CSo8NSObject", "totalCoursesVotesWrapperView"]
+- ["CSo8NSObject", "totalTeacherVotesLabel"]
+- ["CSo8NSObject", "totalTeacherVotesWrapperView"]
+- !private ["PSo16NSObjectProtocol", "UINib"]
+- ["PSo16NSObjectProtocol", "coursesTimestampLabel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "instanceFromNib"]
+- !private ["PSo16NSObjectProtocol", "instantiate"]
+- ["PSo16NSObjectProtocol", "teacherTimestampLabel"]
+- ["PSo16NSObjectProtocol", "totalCoursesVotesLabel"]
+- ["PSo16NSObjectProtocol", "totalCoursesVotesWrapperView"]
+- ["PSo16NSObjectProtocol", "totalTeacherVotesLabel"]
+- ["PSo16NSObjectProtocol", "totalTeacherVotesWrapperView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Index"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Indices"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "SubSequence"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps21RandomAccessIndexable", "Index"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Indices"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "SubSequence"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "subscript"]
+- !private ["Vs17RandomAccessSlice", "Index"]
+- !private ["Vs17RandomAccessSlice", "IndexDistance"]
+- !private ["Vs17RandomAccessSlice", "Indices"]
+- !private ["Vs17RandomAccessSlice", "Iterator"]
+- !private ["Vs17RandomAccessSlice", "SubSequence"]
+- !private ["Vs17RandomAccessSlice", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps25RangeReplaceableIndexable", "Index"]
+- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
+- !private ["Ps25RangeReplaceableIndexable", "subscript"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Indices"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "UINib"]
+- ["PSo29UIAccessibilityIdentification", "coursesTimestampLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "instanceFromNib"]
+- ["PSo29UIAccessibilityIdentification", "teacherTimestampLabel"]
+- ["PSo29UIAccessibilityIdentification", "totalCoursesVotesLabel"]
+- ["PSo29UIAccessibilityIdentification", "totalCoursesVotesWrapperView"]
+- ["PSo29UIAccessibilityIdentification", "totalTeacherVotesLabel"]
+- ["PSo29UIAccessibilityIdentification", "totalTeacherVotesWrapperView"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UINib"]
+- ["PSo12UIAppearance", "coursesTimestampLabel"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "instanceFromNib"]
+- ["PSo12UIAppearance", "teacherTimestampLabel"]
+- ["PSo12UIAppearance", "totalCoursesVotesLabel"]
+- ["PSo12UIAppearance", "totalCoursesVotesWrapperView"]
+- ["PSo12UIAppearance", "totalTeacherVotesLabel"]
+- ["PSo12UIAppearance", "totalTeacherVotesWrapperView"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UINib"]
+- ["PSo21UIAppearanceContainer", "coursesTimestampLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "instanceFromNib"]
+- ["PSo21UIAppearanceContainer", "teacherTimestampLabel"]
+- ["PSo21UIAppearanceContainer", "totalCoursesVotesLabel"]
+- ["PSo21UIAppearanceContainer", "totalCoursesVotesWrapperView"]
+- ["PSo21UIAppearanceContainer", "totalTeacherVotesLabel"]
+- ["PSo21UIAppearanceContainer", "totalTeacherVotesWrapperView"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "UINib"]
+- ["PSo17UICoordinateSpace", "coursesTimestampLabel"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "instanceFromNib"]
+- ["PSo17UICoordinateSpace", "teacherTimestampLabel"]
+- ["PSo17UICoordinateSpace", "totalCoursesVotesLabel"]
+- ["PSo17UICoordinateSpace", "totalCoursesVotesWrapperView"]
+- ["PSo17UICoordinateSpace", "totalTeacherVotesLabel"]
+- ["PSo17UICoordinateSpace", "totalTeacherVotesWrapperView"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UINib"]
+- ["PSo13UIDynamicItem", "coursesTimestampLabel"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "instanceFromNib"]
+- ["PSo13UIDynamicItem", "teacherTimestampLabel"]
+- ["PSo13UIDynamicItem", "totalCoursesVotesLabel"]
+- ["PSo13UIDynamicItem", "totalCoursesVotesWrapperView"]
+- ["PSo13UIDynamicItem", "totalTeacherVotesLabel"]
+- ["PSo13UIDynamicItem", "totalTeacherVotesWrapperView"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UINib"]
+- ["PSo18UIFocusEnvironment", "coursesTimestampLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "instanceFromNib"]
+- ["PSo18UIFocusEnvironment", "teacherTimestampLabel"]
+- ["PSo18UIFocusEnvironment", "totalCoursesVotesLabel"]
+- ["PSo18UIFocusEnvironment", "totalCoursesVotesWrapperView"]
+- ["PSo18UIFocusEnvironment", "totalTeacherVotesLabel"]
+- ["PSo18UIFocusEnvironment", "totalTeacherVotesWrapperView"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "UINib"]
+- ["PSo11UIFocusItem", "coursesTimestampLabel"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "instanceFromNib"]
+- ["PSo11UIFocusItem", "teacherTimestampLabel"]
+- ["PSo11UIFocusItem", "totalCoursesVotesLabel"]
+- ["PSo11UIFocusItem", "totalCoursesVotesWrapperView"]
+- ["PSo11UIFocusItem", "totalTeacherVotesLabel"]
+- ["PSo11UIFocusItem", "totalTeacherVotesWrapperView"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo5UINib", "deinit"]
+- !private ["CSo5UINib", "init"]
+- !private ["CSo5UINib", "instantiate"]
+- ["CSo11UIResponder", "HomeStatsView"]
+- ["CSo11UIResponder", "StatView"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UINib"]
+- ["CSo11UIResponder", "coursesTimestampLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "instanceFromNib"]
+- ["CSo11UIResponder", "teacherTimestampLabel"]
+- ["CSo11UIResponder", "totalCoursesVotesLabel"]
+- ["CSo11UIResponder", "totalCoursesVotesWrapperView"]
+- ["CSo11UIResponder", "totalTeacherVotesLabel"]
+- ["CSo11UIResponder", "totalTeacherVotesWrapperView"]
+- !private ["PSo30UIResponderStandardEditActions", "UINib"]
+- ["PSo30UIResponderStandardEditActions", "coursesTimestampLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "instanceFromNib"]
+- ["PSo30UIResponderStandardEditActions", "teacherTimestampLabel"]
+- ["PSo30UIResponderStandardEditActions", "totalCoursesVotesLabel"]
+- ["PSo30UIResponderStandardEditActions", "totalCoursesVotesWrapperView"]
+- ["PSo30UIResponderStandardEditActions", "totalTeacherVotesLabel"]
+- ["PSo30UIResponderStandardEditActions", "totalTeacherVotesWrapperView"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "UINib"]
+- ["PSo18UITraitEnvironment", "coursesTimestampLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "instanceFromNib"]
+- ["PSo18UITraitEnvironment", "teacherTimestampLabel"]
+- ["PSo18UITraitEnvironment", "totalCoursesVotesLabel"]
+- ["PSo18UITraitEnvironment", "totalCoursesVotesWrapperView"]
+- ["PSo18UITraitEnvironment", "totalTeacherVotesLabel"]
+- ["PSo18UITraitEnvironment", "totalTeacherVotesWrapperView"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "HomeStatsView"]
+- ["CSo6UIView", "StatView"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "UINib"]
+- ["CSo6UIView", "coursesTimestampLabel"]
+- ["CSo6UIView", "deinit"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "instanceFromNib"]
+- ["CSo6UIView", "teacherTimestampLabel"]
+- ["CSo6UIView", "totalCoursesVotesLabel"]
+- ["CSo6UIView", "totalCoursesVotesWrapperView"]
+- ["CSo6UIView", "totalTeacherVotesLabel"]
+- ["CSo6UIView", "totalTeacherVotesWrapperView"]
+- ["CSo6UIView", ""]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UINib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "coursesTimestampLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "instanceFromNib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "teacherTimestampLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "totalCoursesVotesLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "totalCoursesVotesWrapperView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "totalTeacherVotesLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "totalTeacherVotesWrapperView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "UINib"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- ["Ps9_Hashable", "coursesTimestampLabel"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "instanceFromNib"]
+- !private ["Ps9_Hashable", "instantiate"]
+- ["Ps9_Hashable", "teacherTimestampLabel"]
+- ["Ps9_Hashable", "totalCoursesVotesLabel"]
+- ["Ps9_Hashable", "totalCoursesVotesWrapperView"]
+- ["Ps9_Hashable", "totalTeacherVotesLabel"]
+- ["Ps9_Hashable", "totalTeacherVotesWrapperView"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Vs18BidirectionalSlice"
+- !private "Ps17BitwiseOperations"
+- "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs27DefaultBidirectionalIndices"
+- !private "Vs26DefaultRandomAccessIndices"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "C5treep13HomeStatsView"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs17RandomAccessSlice"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo5UINib"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps14_ArrayProtocol"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/ScrollableGraphView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+interface-hash: "039823e8f94ddbe9a4890975b30fd81d"

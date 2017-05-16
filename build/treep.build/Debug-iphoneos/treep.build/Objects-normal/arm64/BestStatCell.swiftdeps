@@ -1,0 +1,308 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BestStatCell"
+provides-nominal:
+- "C5treep12BestStatCell"
+provides-member:
+- ["C5treep12BestStatCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "statTarget"
+- "numberLabel"
+- "secondaryLabel"
+- "thirdLabel"
+- "setSelected"
+depends-top-level:
+- "BestStatCell"
+- "UITableViewCell"
+- "UILabel"
+- "Bool"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "numberLabel"]
+- ["Ps9AnyObject", "secondaryLabel"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", "statTarget"]
+- ["Ps9AnyObject", "thirdLabel"]
+- ["Ps9AnyObject", ""]
+- ["C5treep12BestStatCell", "Bool"]
+- ["C5treep12BestStatCell", "UILabel"]
+- ["C5treep12BestStatCell", "awakeFromNib"]
+- ["C5treep12BestStatCell", "deinit"]
+- ["C5treep12BestStatCell", "init"]
+- ["C5treep12BestStatCell", "numberLabel"]
+- ["C5treep12BestStatCell", "secondaryLabel"]
+- ["C5treep12BestStatCell", "setSelected"]
+- ["C5treep12BestStatCell", "statTarget"]
+- ["C5treep12BestStatCell", "thirdLabel"]
+- ["Sb", "deinit"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "numberLabel"]
+- ["PSo15CALayerDelegate", "secondaryLabel"]
+- ["PSo15CALayerDelegate", "setSelected"]
+- ["PSo15CALayerDelegate", "statTarget"]
+- ["PSo15CALayerDelegate", "thirdLabel"]
+- ["PSo15CALayerDelegate", ""]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "numberLabel"]
+- ["Ps7CVarArg", "secondaryLabel"]
+- ["Ps7CVarArg", "setSelected"]
+- ["Ps7CVarArg", "statTarget"]
+- ["Ps7CVarArg", "thirdLabel"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "numberLabel"]
+- ["Ps28CustomDebugStringConvertible", "secondaryLabel"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "statTarget"]
+- ["Ps28CustomDebugStringConvertible", "thirdLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "numberLabel"]
+- ["Ps23CustomStringConvertible", "secondaryLabel"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", "statTarget"]
+- ["Ps23CustomStringConvertible", "thirdLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "numberLabel"]
+- ["Ps9Equatable", "secondaryLabel"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", "statTarget"]
+- ["Ps9Equatable", "thirdLabel"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "numberLabel"]
+- ["Ps8Hashable", "secondaryLabel"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", "statTarget"]
+- ["Ps8Hashable", "thirdLabel"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "numberLabel"]
+- ["PSo8NSCoding", "secondaryLabel"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "statTarget"]
+- ["PSo8NSCoding", "thirdLabel"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "numberLabel"]
+- ["CSo8NSObject", "secondaryLabel"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "statTarget"]
+- ["CSo8NSObject", "thirdLabel"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "numberLabel"]
+- ["PSo16NSObjectProtocol", "secondaryLabel"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "statTarget"]
+- ["PSo16NSObjectProtocol", "thirdLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "numberLabel"]
+- ["PSo29UIAccessibilityIdentification", "secondaryLabel"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "statTarget"]
+- ["PSo29UIAccessibilityIdentification", "thirdLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "numberLabel"]
+- ["PSo12UIAppearance", "secondaryLabel"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "statTarget"]
+- ["PSo12UIAppearance", "thirdLabel"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "numberLabel"]
+- ["PSo21UIAppearanceContainer", "secondaryLabel"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "statTarget"]
+- ["PSo21UIAppearanceContainer", "thirdLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "numberLabel"]
+- ["PSo17UICoordinateSpace", "secondaryLabel"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "statTarget"]
+- ["PSo17UICoordinateSpace", "thirdLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "numberLabel"]
+- ["PSo13UIDynamicItem", "secondaryLabel"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "statTarget"]
+- ["PSo13UIDynamicItem", "thirdLabel"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "numberLabel"]
+- ["PSo18UIFocusEnvironment", "secondaryLabel"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "statTarget"]
+- ["PSo18UIFocusEnvironment", "thirdLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "numberLabel"]
+- ["PSo11UIFocusItem", "secondaryLabel"]
+- ["PSo11UIFocusItem", "setSelected"]
+- ["PSo11UIFocusItem", "statTarget"]
+- ["PSo11UIFocusItem", "thirdLabel"]
+- ["PSo11UIFocusItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "numberLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "secondaryLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "statTarget"]
+- ["PSo27UIGestureRecognizerDelegate", "thirdLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "numberLabel"]
+- ["CSo11UIResponder", "secondaryLabel"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "statTarget"]
+- ["CSo11UIResponder", "thirdLabel"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "numberLabel"]
+- ["PSo30UIResponderStandardEditActions", "secondaryLabel"]
+- ["PSo30UIResponderStandardEditActions", "setSelected"]
+- ["PSo30UIResponderStandardEditActions", "statTarget"]
+- ["PSo30UIResponderStandardEditActions", "thirdLabel"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "numberLabel"]
+- ["CSo15UITableViewCell", "secondaryLabel"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "statTarget"]
+- ["CSo15UITableViewCell", "thirdLabel"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "numberLabel"]
+- ["PSo18UITraitEnvironment", "secondaryLabel"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "statTarget"]
+- ["PSo18UITraitEnvironment", "thirdLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "numberLabel"]
+- ["CSo6UIView", "secondaryLabel"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "statTarget"]
+- ["CSo6UIView", "thirdLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "numberLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "secondaryLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "statTarget"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "thirdLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "numberLabel"]
+- ["Ps9_Hashable", "secondaryLabel"]
+- ["Ps9_Hashable", "setSelected"]
+- ["Ps9_Hashable", "statTarget"]
+- ["Ps9_Hashable", "thirdLabel"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C5treep12BestStatCell"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/ScrollableGraphView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+interface-hash: "b4d2841a378edf8540f20f5f0566676f"

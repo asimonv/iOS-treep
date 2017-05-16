@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "6de1c6cb0198af470409d187954e306f"
+build_time: [548189036, 509872000]
+inputs:
+  "/Users/Andre/Documents/treep/Pods/ScrollableGraphView/Classes/ScrollableGraphView.swift": [535029648, 0]

@@ -1,0 +1,341 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RelatedTeacherCell"
+provides-nominal:
+- "C5treep18RelatedTeacherCell"
+provides-member:
+- ["C5treep18RelatedTeacherCell", ""]
+provides-dynamic-lookup:
+- "bestTeacherLabel"
+- "awakeFromNib"
+- "teacherLastNameLabel"
+- "teacherRankWrapperView"
+- "teacherImageView"
+- "rankLabel"
+- "teacherFirstNameLabel"
+depends-top-level:
+- "UIView"
+- "UICollectionViewCell"
+- "RelatedTeacherCell"
+- "UIImageView"
+- "UILabel"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "bestTeacherLabel"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "rankLabel"]
+- ["Ps9AnyObject", "teacherFirstNameLabel"]
+- ["Ps9AnyObject", "teacherImageView"]
+- ["Ps9AnyObject", "teacherLastNameLabel"]
+- ["Ps9AnyObject", "teacherRankWrapperView"]
+- ["Ps9AnyObject", ""]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- ["PSo15CALayerDelegate", "bestTeacherLabel"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "rankLabel"]
+- ["PSo15CALayerDelegate", "teacherFirstNameLabel"]
+- ["PSo15CALayerDelegate", "teacherImageView"]
+- ["PSo15CALayerDelegate", "teacherLastNameLabel"]
+- ["PSo15CALayerDelegate", "teacherRankWrapperView"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC6CGRect", "deinit"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- ["Ps7CVarArg", "bestTeacherLabel"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "rankLabel"]
+- ["Ps7CVarArg", "teacherFirstNameLabel"]
+- ["Ps7CVarArg", "teacherImageView"]
+- ["Ps7CVarArg", "teacherLastNameLabel"]
+- ["Ps7CVarArg", "teacherRankWrapperView"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "bestTeacherLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "rankLabel"]
+- ["Ps28CustomDebugStringConvertible", "teacherFirstNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "teacherImageView"]
+- ["Ps28CustomDebugStringConvertible", "teacherLastNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "teacherRankWrapperView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "bestTeacherLabel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "rankLabel"]
+- ["Ps23CustomStringConvertible", "teacherFirstNameLabel"]
+- ["Ps23CustomStringConvertible", "teacherImageView"]
+- ["Ps23CustomStringConvertible", "teacherLastNameLabel"]
+- ["Ps23CustomStringConvertible", "teacherRankWrapperView"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "bestTeacherLabel"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rankLabel"]
+- ["Ps9Equatable", "teacherFirstNameLabel"]
+- ["Ps9Equatable", "teacherImageView"]
+- ["Ps9Equatable", "teacherLastNameLabel"]
+- ["Ps9Equatable", "teacherRankWrapperView"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "bestTeacherLabel"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rankLabel"]
+- ["Ps8Hashable", "teacherFirstNameLabel"]
+- ["Ps8Hashable", "teacherImageView"]
+- ["Ps8Hashable", "teacherLastNameLabel"]
+- ["Ps8Hashable", "teacherRankWrapperView"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "bestTeacherLabel"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "rankLabel"]
+- ["PSo8NSCoding", "teacherFirstNameLabel"]
+- ["PSo8NSCoding", "teacherImageView"]
+- ["PSo8NSCoding", "teacherLastNameLabel"]
+- ["PSo8NSCoding", "teacherRankWrapperView"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "bestTeacherLabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "rankLabel"]
+- ["CSo8NSObject", "teacherFirstNameLabel"]
+- ["CSo8NSObject", "teacherImageView"]
+- ["CSo8NSObject", "teacherLastNameLabel"]
+- ["CSo8NSObject", "teacherRankWrapperView"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "bestTeacherLabel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "rankLabel"]
+- ["PSo16NSObjectProtocol", "teacherFirstNameLabel"]
+- ["PSo16NSObjectProtocol", "teacherImageView"]
+- ["PSo16NSObjectProtocol", "teacherLastNameLabel"]
+- ["PSo16NSObjectProtocol", "teacherRankWrapperView"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["C5treep18RelatedTeacherCell", "UIImageView"]
+- ["C5treep18RelatedTeacherCell", "UILabel"]
+- ["C5treep18RelatedTeacherCell", "UIView"]
+- ["C5treep18RelatedTeacherCell", "awakeFromNib"]
+- ["C5treep18RelatedTeacherCell", "bestTeacherLabel"]
+- ["C5treep18RelatedTeacherCell", "deinit"]
+- ["C5treep18RelatedTeacherCell", "init"]
+- ["C5treep18RelatedTeacherCell", "rankLabel"]
+- ["C5treep18RelatedTeacherCell", "teacherFirstNameLabel"]
+- ["C5treep18RelatedTeacherCell", "teacherImageView"]
+- ["C5treep18RelatedTeacherCell", "teacherLastNameLabel"]
+- ["C5treep18RelatedTeacherCell", "teacherRankWrapperView"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "bestTeacherLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "rankLabel"]
+- ["PSo29UIAccessibilityIdentification", "teacherFirstNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "teacherImageView"]
+- ["PSo29UIAccessibilityIdentification", "teacherLastNameLabel"]
+- ["PSo29UIAccessibilityIdentification", "teacherRankWrapperView"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "bestTeacherLabel"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "rankLabel"]
+- ["PSo12UIAppearance", "teacherFirstNameLabel"]
+- ["PSo12UIAppearance", "teacherImageView"]
+- ["PSo12UIAppearance", "teacherLastNameLabel"]
+- ["PSo12UIAppearance", "teacherRankWrapperView"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "bestTeacherLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "rankLabel"]
+- ["PSo21UIAppearanceContainer", "teacherFirstNameLabel"]
+- ["PSo21UIAppearanceContainer", "teacherImageView"]
+- ["PSo21UIAppearanceContainer", "teacherLastNameLabel"]
+- ["PSo21UIAppearanceContainer", "teacherRankWrapperView"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "UIImageView"]
+- ["CSo24UICollectionReusableView", "UILabel"]
+- ["CSo24UICollectionReusableView", "UIView"]
+- ["CSo24UICollectionReusableView", "awakeFromNib"]
+- ["CSo24UICollectionReusableView", "bestTeacherLabel"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "rankLabel"]
+- ["CSo24UICollectionReusableView", "teacherFirstNameLabel"]
+- ["CSo24UICollectionReusableView", "teacherImageView"]
+- ["CSo24UICollectionReusableView", "teacherLastNameLabel"]
+- ["CSo24UICollectionReusableView", "teacherRankWrapperView"]
+- ["CSo20UICollectionViewCell", "UIImageView"]
+- ["CSo20UICollectionViewCell", "UILabel"]
+- ["CSo20UICollectionViewCell", "UIView"]
+- ["CSo20UICollectionViewCell", "awakeFromNib"]
+- ["CSo20UICollectionViewCell", "bestTeacherLabel"]
+- ["CSo20UICollectionViewCell", "deinit"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "rankLabel"]
+- ["CSo20UICollectionViewCell", "teacherFirstNameLabel"]
+- ["CSo20UICollectionViewCell", "teacherImageView"]
+- ["CSo20UICollectionViewCell", "teacherLastNameLabel"]
+- ["CSo20UICollectionViewCell", "teacherRankWrapperView"]
+- ["CSo20UICollectionViewCell", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "bestTeacherLabel"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "rankLabel"]
+- ["PSo17UICoordinateSpace", "teacherFirstNameLabel"]
+- ["PSo17UICoordinateSpace", "teacherImageView"]
+- ["PSo17UICoordinateSpace", "teacherLastNameLabel"]
+- ["PSo17UICoordinateSpace", "teacherRankWrapperView"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "bestTeacherLabel"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "rankLabel"]
+- ["PSo13UIDynamicItem", "teacherFirstNameLabel"]
+- ["PSo13UIDynamicItem", "teacherImageView"]
+- ["PSo13UIDynamicItem", "teacherLastNameLabel"]
+- ["PSo13UIDynamicItem", "teacherRankWrapperView"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "bestTeacherLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "rankLabel"]
+- ["PSo18UIFocusEnvironment", "teacherFirstNameLabel"]
+- ["PSo18UIFocusEnvironment", "teacherImageView"]
+- ["PSo18UIFocusEnvironment", "teacherLastNameLabel"]
+- ["PSo18UIFocusEnvironment", "teacherRankWrapperView"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- ["PSo11UIFocusItem", "bestTeacherLabel"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "rankLabel"]
+- ["PSo11UIFocusItem", "teacherFirstNameLabel"]
+- ["PSo11UIFocusItem", "teacherImageView"]
+- ["PSo11UIFocusItem", "teacherLastNameLabel"]
+- ["PSo11UIFocusItem", "teacherRankWrapperView"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "bestTeacherLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "rankLabel"]
+- ["CSo11UIResponder", "teacherFirstNameLabel"]
+- ["CSo11UIResponder", "teacherImageView"]
+- ["CSo11UIResponder", "teacherLastNameLabel"]
+- ["CSo11UIResponder", "teacherRankWrapperView"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- ["PSo30UIResponderStandardEditActions", "bestTeacherLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "rankLabel"]
+- ["PSo30UIResponderStandardEditActions", "teacherFirstNameLabel"]
+- ["PSo30UIResponderStandardEditActions", "teacherImageView"]
+- ["PSo30UIResponderStandardEditActions", "teacherLastNameLabel"]
+- ["PSo30UIResponderStandardEditActions", "teacherRankWrapperView"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "bestTeacherLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "rankLabel"]
+- ["PSo18UITraitEnvironment", "teacherFirstNameLabel"]
+- ["PSo18UITraitEnvironment", "teacherImageView"]
+- ["PSo18UITraitEnvironment", "teacherLastNameLabel"]
+- ["PSo18UITraitEnvironment", "teacherRankWrapperView"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "bestTeacherLabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "rankLabel"]
+- ["CSo6UIView", "teacherFirstNameLabel"]
+- ["CSo6UIView", "teacherImageView"]
+- ["CSo6UIView", "teacherLastNameLabel"]
+- ["CSo6UIView", "teacherRankWrapperView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "bestTeacherLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "rankLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "teacherFirstNameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "teacherImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "teacherLastNameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "teacherRankWrapperView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "awakeFromNib"]
+- ["Ps9_Hashable", "bestTeacherLabel"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rankLabel"]
+- ["Ps9_Hashable", "teacherFirstNameLabel"]
+- ["Ps9_Hashable", "teacherImageView"]
+- ["Ps9_Hashable", "teacherLastNameLabel"]
+- ["Ps9_Hashable", "teacherRankWrapperView"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "C5treep18RelatedTeacherCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/ScrollableGraphView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+interface-hash: "ffc7019c8c32aef4a83f36be76ad3aea"

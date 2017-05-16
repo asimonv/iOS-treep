@@ -1,0 +1,212 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Settings"
+provides-nominal:
+- "V5treep8Settings"
+provides-member:
+- ["V5treep8Settings", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CWNotificationStyle"
+- "CWNotificationAnimationStyle"
+- "UIFontWeightSemibold"
+- "CGFloat"
+- "Settings"
+- "UIColor"
+- "StringLiteralType"
+- "UIFont"
+depends-member:
+- ["Ps9AnyObject", "colorFromHex"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "systemFont"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps7CVarArg", "colorFromHex"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "systemFont"]
+- ["O5treep28CWNotificationAnimationStyle", "deinit"]
+- ["O5treep28CWNotificationAnimationStyle", "top"]
+- ["O5treep19CWNotificationStyle", "deinit"]
+- ["O5treep19CWNotificationStyle", "statusBarNotification"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "colorFromHex"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "systemFont"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "colorFromHex"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "systemFont"]
+- ["Ps9Equatable", "colorFromHex"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "statusBarNotification"]
+- ["Ps9Equatable", "systemFont"]
+- ["Ps9Equatable", "top"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "colorFromHex"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "statusBarNotification"]
+- ["Ps8Hashable", "systemFont"]
+- ["Ps8Hashable", "top"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- ["P10Kingfisher20KingfisherCompatible", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "colorFromHex"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "colorFromHex"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "systemFont"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "colorFromHex"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "systemFont"]
+- ["PSo16NSObjectProtocol", "colorFromHex"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "systemFont"]
+- ["PSo14NSSecureCoding", "colorFromHex"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Ps16RawRepresentable", "statusBarNotification"]
+- ["Ps16RawRepresentable", "top"]
+- ["V5treep8Settings", "CGFloat"]
+- ["V5treep8Settings", "CWNotificationAnimationStyle"]
+- ["V5treep8Settings", "CWNotificationStyle"]
+- ["V5treep8Settings", "UIColor"]
+- ["V5treep8Settings", "UIFont"]
+- ["V5treep8Settings", "UIFontWeightSemibold"]
+- ["V5treep8Settings", "addCourseText"]
+- ["V5treep8Settings", "animationInStyle"]
+- ["V5treep8Settings", "animationOutStyle"]
+- ["V5treep8Settings", "commentTeacher"]
+- ["V5treep8Settings", "courseAddedText"]
+- ["V5treep8Settings", "courseRemovedText"]
+- ["V5treep8Settings", "deinit"]
+- ["V5treep8Settings", "endorseCourse"]
+- ["V5treep8Settings", "endorseText"]
+- ["V5treep8Settings", "getBestStat"]
+- ["V5treep8Settings", "getCourseVotes"]
+- ["V5treep8Settings", "getCourses"]
+- ["V5treep8Settings", "getStats"]
+- ["V5treep8Settings", "getTeacher"]
+- ["V5treep8Settings", "getTeacherComments"]
+- ["V5treep8Settings", "getTeacherCourses"]
+- ["V5treep8Settings", "getTeacherEndorses"]
+- ["V5treep8Settings", "getTeacherVotes"]
+- ["V5treep8Settings", "getTeachersRelated"]
+- ["V5treep8Settings", "getUserCoursesStats"]
+- ["V5treep8Settings", "init"]
+- ["V5treep8Settings", "notificationColor"]
+- ["V5treep8Settings", "notificationFont"]
+- ["V5treep8Settings", "notificationStyle"]
+- ["V5treep8Settings", "postCourseStat"]
+- ["V5treep8Settings", "recieveKey"]
+- ["V5treep8Settings", "removeCourseText"]
+- ["V5treep8Settings", "searchTeachers"]
+- ["V5treep8Settings", "teacherStat"]
+- ["V5treep8Settings", "thanksForComment"]
+- ["V5treep8Settings", "thanksForVotingText"]
+- ["V5treep8Settings", "unEndorseText"]
+- ["V5treep8Settings", "viewCornerRadius"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["CSo7UIColor", "colorFromHex"]
+- ["CSo7UIColor", "deinit"]
+- ["CSo6UIFont", "deinit"]
+- ["CSo6UIFont", "systemFont"]
+- ["P9Alamofire14URLConvertible", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "colorFromHex"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "colorFromHex"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "statusBarNotification"]
+- ["Ps9_Hashable", "systemFont"]
+- ["Ps9_Hashable", "top"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "O5treep28CWNotificationAnimationStyle"
+- "O5treep19CWNotificationStyle"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "P10Kingfisher20KingfisherCompatible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Ps16RawRepresentable"
+- "V5treep8Settings"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo7UIColor"
+- "CSo6UIFont"
+- "P9Alamofire14URLConvertible"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/ScrollableGraphView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+interface-hash: "71539c2a37861e4cd92a7bcf8c714d4b"

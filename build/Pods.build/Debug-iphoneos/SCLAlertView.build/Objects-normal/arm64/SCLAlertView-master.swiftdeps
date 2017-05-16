@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "d183efa51d19d956bf79e4381672c785"
+build_time: [548189034, 958502000]
+inputs:
+  "/Users/Andre/Documents/treep/Pods/SCLAlertView/SCLAlertView/SCLAlertView.swift": [535221366, 0]
+  "/Users/Andre/Documents/treep/Pods/SCLAlertView/SCLAlertView/SCLExtensions.swift": [535221366, 0]

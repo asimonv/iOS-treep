@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StarView" customModule="treep" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="104"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="us5-Xp-g8v" customClass="RoundButton" customModule="treep" customModuleProvider="target">
+                    <rect key="frame" x="128" y="54" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="hMy-dS-lLn"/>
+                        <constraint firstAttribute="width" constant="30" id="vtF-L1-olD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <state key="normal" title="2">
+                        <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="WRd-aO-eUm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pps-oE-zab" customClass="RoundButton" customModule="treep" customModuleProvider="target">
+                    <rect key="frame" x="166" y="54" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Rf3-j6-CTc"/>
+                        <constraint firstAttribute="width" constant="30" id="fhf-UE-H8t"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <state key="normal" title="3">
+                        <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="rFg-Ch-SRs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eJ-Bt-05N" customClass="RoundButton" customModule="treep" customModuleProvider="target">
+                    <rect key="frame" x="205" y="54" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="ToS-LU-fA2"/>
+                        <constraint firstAttribute="height" constant="30" id="w7g-j5-H80"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <state key="normal" title="4">
+                        <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Dic-Yc-F6h"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQV-M0-pL8" customClass="RoundButton" customModule="treep" customModuleProvider="target">
+                    <rect key="frame" x="243" y="54" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="41s-ip-qyT"/>
+                        <constraint firstAttribute="width" constant="30" id="Gwa-wb-SyI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <state key="normal" title="5">
+                        <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="MWz-WR-FuP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mV-on-yb2" customClass="RoundButton" customModule="treep" customModuleProvider="target">
+                    <rect key="frame" x="90" y="54" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Kmc-G5-VMI"/>
+                        <constraint firstAttribute="height" constant="30" id="Lzt-XR-wNV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <state key="normal" title="1">
+                        <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="ygb-wd-w5y"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate this teacher's knowledge" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ps7-b8-KoF">
+                    <rect key="frame" x="16" y="20" width="331" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJn-QO-xuS">
+                    <rect key="frame" x="90" y="54" width="183" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38U-mF-UCz" customClass="RoundButton" customModule="treep" customModuleProvider="target">
+                            <rect key="frame" x="40" y="0.0" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="D05-M3-H4T"/>
+                                <constraint firstAttribute="height" constant="30" id="Zr7-TU-TSe"/>
+                            </constraints>
+                            <state key="normal" image="down"/>
+                            <connections>
+                                <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="mlX-iI-bdg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yn3-pL-GZd" customClass="RoundButton" customModule="treep" customModuleProvider="target">
+                            <rect key="frame" x="113" y="0.0" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="jmI-47-qkE"/>
+                                <constraint firstAttribute="height" constant="30" id="jxr-MO-epi"/>
+                            </constraints>
+                            <state key="normal" image="up"/>
+                            <connections>
+                                <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="DPy-VC-uFc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="yn3-pL-GZd" firstAttribute="top" secondItem="EJn-QO-xuS" secondAttribute="top" id="6Cu-aA-tw2"/>
+                        <constraint firstAttribute="bottom" secondItem="yn3-pL-GZd" secondAttribute="bottom" id="BIR-0A-6c3"/>
+                        <constraint firstAttribute="width" constant="183" id="Ol4-1o-jzM"/>
+                        <constraint firstAttribute="height" constant="30" id="PNE-4g-fcu"/>
+                        <constraint firstAttribute="bottom" secondItem="38U-mF-UCz" secondAttribute="bottom" id="SP3-if-poa"/>
+                        <constraint firstItem="38U-mF-UCz" firstAttribute="leading" secondItem="EJn-QO-xuS" secondAttribute="leading" constant="40" id="ZIM-Nu-4z1"/>
+                        <constraint firstAttribute="trailing" secondItem="yn3-pL-GZd" secondAttribute="trailing" constant="40" id="ddA-MF-Xmf"/>
+                        <constraint firstItem="38U-mF-UCz" firstAttribute="top" secondItem="EJn-QO-xuS" secondAttribute="top" id="yL1-sT-4Ba"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2eJ-Bt-05N" firstAttribute="top" secondItem="Ps7-b8-KoF" secondAttribute="bottom" constant="13.5" id="0LY-lp-LPA"/>
+                <constraint firstAttribute="trailing" secondItem="Ps7-b8-KoF" secondAttribute="trailing" constant="16" id="4Da-H9-O5M"/>
+                <constraint firstItem="EJn-QO-xuS" firstAttribute="top" secondItem="Ps7-b8-KoF" secondAttribute="bottom" constant="13.5" id="Auk-ln-sK3"/>
+                <constraint firstItem="us5-Xp-g8v" firstAttribute="leading" secondItem="3mV-on-yb2" secondAttribute="trailing" constant="8" id="HOI-NX-N5C"/>
+                <constraint firstItem="DQV-M0-pL8" firstAttribute="top" secondItem="Ps7-b8-KoF" secondAttribute="bottom" constant="13.5" id="K6l-0y-BrO"/>
+                <constraint firstAttribute="bottom" secondItem="EJn-QO-xuS" secondAttribute="bottom" constant="20" id="KgH-KK-r8U"/>
+                <constraint firstItem="pps-oE-zab" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PCW-5t-3cC"/>
+                <constraint firstItem="Ps7-b8-KoF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="VvV-cK-RNo"/>
+                <constraint firstItem="DQV-M0-pL8" firstAttribute="leading" secondItem="2eJ-Bt-05N" secondAttribute="trailing" constant="8" id="W5q-vh-IM6"/>
+                <constraint firstItem="2eJ-Bt-05N" firstAttribute="leading" secondItem="pps-oE-zab" secondAttribute="trailing" constant="9" id="Wos-7o-d70"/>
+                <constraint firstAttribute="bottom" secondItem="3mV-on-yb2" secondAttribute="bottom" constant="20" id="bp4-WS-JZ2"/>
+                <constraint firstItem="3mV-on-yb2" firstAttribute="top" secondItem="Ps7-b8-KoF" secondAttribute="bottom" constant="13.5" id="cha-BA-08t"/>
+                <constraint firstAttribute="bottom" secondItem="pps-oE-zab" secondAttribute="bottom" constant="20" id="ddo-hS-xVy"/>
+                <constraint firstAttribute="bottom" secondItem="DQV-M0-pL8" secondAttribute="bottom" constant="20" id="gNK-O4-SfR"/>
+                <constraint firstAttribute="bottom" secondItem="us5-Xp-g8v" secondAttribute="bottom" constant="20" id="gsU-oI-dSf"/>
+                <constraint firstItem="pps-oE-zab" firstAttribute="top" secondItem="Ps7-b8-KoF" secondAttribute="bottom" constant="13.5" id="ksU-Yr-JXb"/>
+                <constraint firstItem="Ps7-b8-KoF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="olE-qP-OOO"/>
+                <constraint firstItem="us5-Xp-g8v" firstAttribute="top" secondItem="Ps7-b8-KoF" secondAttribute="bottom" constant="13.5" id="p3x-3U-EDc"/>
+                <constraint firstItem="EJn-QO-xuS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pAg-6D-GOd"/>
+                <constraint firstItem="pps-oE-zab" firstAttribute="leading" secondItem="us5-Xp-g8v" secondAttribute="trailing" constant="8" id="uwY-sM-Un7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="downButton" destination="38U-mF-UCz" id="YF3-H7-zpr"/>
+                <outlet property="fifthButton" destination="DQV-M0-pL8" id="uny-SM-u4P"/>
+                <outlet property="firstButton" destination="3mV-on-yb2" id="eYe-eG-DrM"/>
+                <outlet property="fourthButton" destination="2eJ-Bt-05N" id="LYn-Zf-cu9"/>
+                <outlet property="secondButton" destination="us5-Xp-g8v" id="SzJ-np-CbE"/>
+                <outlet property="statTitleLabel" destination="Ps7-b8-KoF" id="d63-mA-U94"/>
+                <outlet property="thirdButton" destination="pps-oE-zab" id="acx-cT-G2T"/>
+                <outlet property="upButton" destination="yn3-pL-GZd" id="XNw-6r-O77"/>
+                <outlet property="upDownView" destination="EJn-QO-xuS" id="bD7-RK-Z3f"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-38"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="down" width="16" height="16"/>
+        <image name="up" width="16" height="16"/>
+    </resources>
+</document>

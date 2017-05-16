@@ -1,0 +1,562 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SearchCell"
+provides-nominal:
+- "C5treep10SearchCell"
+provides-member:
+- ["C5treep10SearchCell", ""]
+provides-dynamic-lookup:
+- "addButton"
+- "titleLabel"
+- "awakeFromNib"
+- "setSelected"
+- "addButtonPressed"
+- "subtitleLabel"
+depends-top-level:
+- !private "NSNotification"
+- "UIButton"
+- "Bool"
+- "CastingPrecedence"
+- "UILabel"
+- !private "NotificationCenter"
+- "UITableViewCell"
+- !private "UITableView"
+- !private "StringLiteralType"
+- "SearchCell"
+depends-member:
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- ["Ps9AnyObject", "addButton"]
+- ["Ps9AnyObject", "addButtonPressed"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "indexPath"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "post"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", "subtitleLabel"]
+- !private ["Ps9AnyObject", "superview"]
+- ["Ps9AnyObject", "titleLabel"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "row"]
+- !private ["Ps22BidirectionalIndexable", "row"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "NSNotification"]
+- !private ["PSo15CALayerDelegate", "NotificationCenter"]
+- ["PSo15CALayerDelegate", "addButton"]
+- ["PSo15CALayerDelegate", "addButtonPressed"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "indexPath"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "setSelected"]
+- ["PSo15CALayerDelegate", "subtitleLabel"]
+- !private ["PSo15CALayerDelegate", "superview"]
+- ["PSo15CALayerDelegate", "titleLabel"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "NSNotification"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- ["Ps7CVarArg", "addButton"]
+- ["Ps7CVarArg", "addButtonPressed"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "indexPath"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "post"]
+- ["Ps7CVarArg", "setSelected"]
+- ["Ps7CVarArg", "subtitleLabel"]
+- !private ["Ps7CVarArg", "superview"]
+- ["Ps7CVarArg", "titleLabel"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "row"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- ["Ps28CustomDebugStringConvertible", "addButton"]
+- ["Ps28CustomDebugStringConvertible", "addButtonPressed"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "indexPath"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "subtitleLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "superview"]
+- ["Ps28CustomDebugStringConvertible", "titleLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "row"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- ["Ps23CustomStringConvertible", "addButton"]
+- ["Ps23CustomStringConvertible", "addButtonPressed"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "indexPath"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", "subtitleLabel"]
+- !private ["Ps23CustomStringConvertible", "superview"]
+- ["Ps23CustomStringConvertible", "titleLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- ["Ps9Equatable", "addButton"]
+- ["Ps9Equatable", "addButtonPressed"]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "indexPath"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "row"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", "subtitleLabel"]
+- !private ["Ps9Equatable", "superview"]
+- ["Ps9Equatable", "titleLabel"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "row"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- ["Ps8Hashable", "addButton"]
+- ["Ps8Hashable", "addButtonPressed"]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "indexPath"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "row"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", "subtitleLabel"]
+- !private ["Ps8Hashable", "superview"]
+- ["Ps8Hashable", "titleLabel"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["V10Foundation9IndexPath", "deinit"]
+- !private ["V10Foundation9IndexPath", "row"]
+- !private ["Ps9Indexable", "row"]
+- !private ["Ps13IndexableBase", "row"]
+- ["Si", "deinit"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "row"]
+- !private ["Ps16MutableIndexable", "row"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "NSNotification"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "NotificationCenter"]
+- ["PSo8NSCoding", "addButton"]
+- ["PSo8NSCoding", "addButtonPressed"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "indexPath"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "subtitleLabel"]
+- !private ["PSo8NSCoding", "superview"]
+- ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Name"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo14NSNotification", "Name"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "addButton"]
+- ["CSo8NSObject", "addButtonPressed"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "indexPath"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "post"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "subtitleLabel"]
+- !private ["CSo8NSObject", "superview"]
+- ["CSo8NSObject", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- ["PSo16NSObjectProtocol", "addButton"]
+- ["PSo16NSObjectProtocol", "addButtonPressed"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "indexPath"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "subtitleLabel"]
+- !private ["PSo16NSObjectProtocol", "superview"]
+- ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "post"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "row"]
+- !private ["Ps21RandomAccessIndexable", "row"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "row"]
+- ["C5treep10SearchCell", "Bool"]
+- !private ["C5treep10SearchCell", "NSNotification"]
+- !private ["C5treep10SearchCell", "NotificationCenter"]
+- ["C5treep10SearchCell", "UIButton"]
+- ["C5treep10SearchCell", "UILabel"]
+- !private ["C5treep10SearchCell", "UITableView"]
+- ["C5treep10SearchCell", "addButton"]
+- ["C5treep10SearchCell", "addButtonPressed"]
+- ["C5treep10SearchCell", "awakeFromNib"]
+- ["C5treep10SearchCell", "deinit"]
+- ["C5treep10SearchCell", "init"]
+- ["C5treep10SearchCell", "setSelected"]
+- ["C5treep10SearchCell", "subtitleLabel"]
+- !private ["C5treep10SearchCell", "superview"]
+- ["C5treep10SearchCell", "titleLabel"]
+- !private ["Ps8Sequence", "row"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "NSNotification"]
+- !private ["PSo29UIAccessibilityIdentification", "NotificationCenter"]
+- ["PSo29UIAccessibilityIdentification", "addButton"]
+- ["PSo29UIAccessibilityIdentification", "addButtonPressed"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "indexPath"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "subtitleLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "superview"]
+- ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "NSNotification"]
+- !private ["PSo12UIAppearance", "NotificationCenter"]
+- ["PSo12UIAppearance", "addButton"]
+- ["PSo12UIAppearance", "addButtonPressed"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "indexPath"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "subtitleLabel"]
+- !private ["PSo12UIAppearance", "superview"]
+- ["PSo12UIAppearance", "titleLabel"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "NSNotification"]
+- !private ["PSo21UIAppearanceContainer", "NotificationCenter"]
+- ["PSo21UIAppearanceContainer", "addButton"]
+- ["PSo21UIAppearanceContainer", "addButtonPressed"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "indexPath"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "subtitleLabel"]
+- !private ["PSo21UIAppearanceContainer", "superview"]
+- ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "NSNotification"]
+- !private ["PSo17UICoordinateSpace", "NotificationCenter"]
+- ["PSo17UICoordinateSpace", "addButton"]
+- ["PSo17UICoordinateSpace", "addButtonPressed"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "indexPath"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "subtitleLabel"]
+- !private ["PSo17UICoordinateSpace", "superview"]
+- ["PSo17UICoordinateSpace", "titleLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "NSNotification"]
+- !private ["PSo13UIDynamicItem", "NotificationCenter"]
+- ["PSo13UIDynamicItem", "addButton"]
+- ["PSo13UIDynamicItem", "addButtonPressed"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "indexPath"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "subtitleLabel"]
+- !private ["PSo13UIDynamicItem", "superview"]
+- ["PSo13UIDynamicItem", "titleLabel"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "NSNotification"]
+- !private ["PSo18UIFocusEnvironment", "NotificationCenter"]
+- ["PSo18UIFocusEnvironment", "addButton"]
+- ["PSo18UIFocusEnvironment", "addButtonPressed"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "indexPath"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "subtitleLabel"]
+- !private ["PSo18UIFocusEnvironment", "superview"]
+- ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "NSNotification"]
+- !private ["PSo11UIFocusItem", "NotificationCenter"]
+- ["PSo11UIFocusItem", "addButton"]
+- ["PSo11UIFocusItem", "addButtonPressed"]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "indexPath"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "setSelected"]
+- ["PSo11UIFocusItem", "subtitleLabel"]
+- !private ["PSo11UIFocusItem", "superview"]
+- ["PSo11UIFocusItem", "titleLabel"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "NSNotification"]
+- !private ["PSo27UIGestureRecognizerDelegate", "NotificationCenter"]
+- ["PSo27UIGestureRecognizerDelegate", "addButton"]
+- ["PSo27UIGestureRecognizerDelegate", "addButtonPressed"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "subtitleLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "superview"]
+- ["PSo27UIGestureRecognizerDelegate", "titleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "NSNotification"]
+- !private ["CSo11UIResponder", "NotificationCenter"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "addButton"]
+- ["CSo11UIResponder", "addButtonPressed"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "indexPath"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "subtitleLabel"]
+- !private ["CSo11UIResponder", "superview"]
+- ["CSo11UIResponder", "titleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "NSNotification"]
+- !private ["PSo30UIResponderStandardEditActions", "NotificationCenter"]
+- ["PSo30UIResponderStandardEditActions", "addButton"]
+- ["PSo30UIResponderStandardEditActions", "addButtonPressed"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "indexPath"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "setSelected"]
+- ["PSo30UIResponderStandardEditActions", "subtitleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "superview"]
+- ["PSo30UIResponderStandardEditActions", "titleLabel"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "indexPath"]
+- ["CSo11UITableView", "deinit"]
+- !private ["CSo11UITableView", "indexPath"]
+- ["CSo15UITableViewCell", "Bool"]
+- !private ["CSo15UITableViewCell", "NSNotification"]
+- !private ["CSo15UITableViewCell", "NotificationCenter"]
+- ["CSo15UITableViewCell", "UIButton"]
+- ["CSo15UITableViewCell", "UILabel"]
+- !private ["CSo15UITableViewCell", "UITableView"]
+- ["CSo15UITableViewCell", "addButton"]
+- ["CSo15UITableViewCell", "addButtonPressed"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "subtitleLabel"]
+- !private ["CSo15UITableViewCell", "superview"]
+- ["CSo15UITableViewCell", "titleLabel"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- !private ["PSo18UITraitEnvironment", "NSNotification"]
+- !private ["PSo18UITraitEnvironment", "NotificationCenter"]
+- ["PSo18UITraitEnvironment", "addButton"]
+- ["PSo18UITraitEnvironment", "addButtonPressed"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "indexPath"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "subtitleLabel"]
+- !private ["PSo18UITraitEnvironment", "superview"]
+- ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- !private ["CSo6UIView", "NSNotification"]
+- !private ["CSo6UIView", "NotificationCenter"]
+- ["CSo6UIView", "UIButton"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "UITableView"]
+- ["CSo6UIView", "addButton"]
+- ["CSo6UIView", "addButtonPressed"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "deinit"]
+- !private ["CSo6UIView", "indexPath"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "subtitleLabel"]
+- !private ["CSo6UIView", "superview"]
+- ["CSo6UIView", "titleLabel"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSNotification"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NotificationCenter"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "addButton"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "addButtonPressed"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "indexPath"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "subtitleLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "superview"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- ["Ps9_Hashable", "addButton"]
+- ["Ps9_Hashable", "addButtonPressed"]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "indexPath"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "row"]
+- ["Ps9_Hashable", "setSelected"]
+- ["Ps9_Hashable", "subtitleLabel"]
+- !private ["Ps9_Hashable", "superview"]
+- ["Ps9_Hashable", "titleLabel"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "row"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "V10Foundation9IndexPath"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- "CSo18NotificationCenter"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "C5treep10SearchCell"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- "CSo11UITableView"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "P9Alamofire14URLConvertible"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/ScrollableGraphView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Headers/ScrollableGraphView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/ScrollableGraphView/ScrollableGraphView.framework/Modules/module.modulemap"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/arm64.swiftmodule"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/Andre/Documents/treep/build/Debug-iphoneos/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+interface-hash: "917a1fbec406ac736b4721d9bd8413e7"

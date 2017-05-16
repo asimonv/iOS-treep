@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CourseProfileView" customModule="treep" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="135"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIJ-2M-XEi">
+                    <rect key="frame" x="8" y="7" width="243" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAT1620 - Cálculo II" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AY1-ob-yQS">
+                    <rect key="frame" x="8" y="37" width="327" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ven-Hn-ROb">
+                    <rect key="frame" x="8" y="28" width="41" height="1"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="k1S-81-s3E"/>
+                        <constraint firstAttribute="width" constant="41" id="mg9-W4-wVA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rIJ-2M-XEi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="1Ph-3O-S7k"/>
+                <constraint firstItem="Ven-Hn-ROb" firstAttribute="top" secondItem="rIJ-2M-XEi" secondAttribute="bottom" constant="4" id="1cE-J6-aTy"/>
+                <constraint firstItem="AY1-ob-yQS" firstAttribute="top" secondItem="Ven-Hn-ROb" secondAttribute="bottom" constant="8" id="2cf-aF-2Zr"/>
+                <constraint firstAttribute="trailing" secondItem="AY1-ob-yQS" secondAttribute="trailing" constant="8" id="7wA-g2-ZnS"/>
+                <constraint firstItem="Ven-Hn-ROb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="AnR-T5-HRD"/>
+                <constraint firstAttribute="trailing" secondItem="rIJ-2M-XEi" secondAttribute="trailing" constant="92" id="Anh-N1-asz"/>
+                <constraint firstItem="rIJ-2M-XEi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="pGf-ra-Sth"/>
+                <constraint firstItem="AY1-ob-yQS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="s6w-U8-8SY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                    <color key="value" red="0.97254901959999995" green="0.58039215690000001" blue="0.023529411760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                    <color key="value" red="0.97254901959999995" green="0.43371055089509697" blue="0.043496970643798746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="courseNameLabel" destination="AY1-ob-yQS" id="6O7-v7-Mog"/>
+                <outlet property="difficultyLabel" destination="rIJ-2M-XEi" id="E2R-hN-n19"/>
+            </connections>
+            <point key="canvasLocation" x="2.5" y="-211.5"/>
+        </view>
+    </objects>
+</document>
