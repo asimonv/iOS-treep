@@ -182,7 +182,7 @@ header .device-container {
   margin: 0 auto 100px;
 }
 header .device-container .screen img {
-  border-radius: 3px;
+  /*border-radius: 3px;*/
 }
 @media (min-width: 768px) {
   header {
