@@ -69,8 +69,8 @@ p {
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 600;
   letter-spacing: 1px;
   color: #fdcc52;
 }
